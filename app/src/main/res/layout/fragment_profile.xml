@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E1E1E"
+    tools:context=".Fragment.Profile_Fragment">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:fontFamily="@font/inter_bold"
+            android:textColor="@color/white"
+            android:text="Start of Android"/>
+
+        <ImageView
+            android:layout_width="350sp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30sp"
+            android:src="@drawable/line2" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="180sp"
+        android:layout_height="320sp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="140sp"
+            android:layout_height="140sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="80sp"
+            android:src="@drawable/jayesh" />
+
+        <ImageView
+            android:layout_width="200sp"
+            android:layout_height="200sp"
+            android:layout_marginTop="50sp"
+            android:src="@drawable/omg" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250sp"
+            android:fontFamily="@font/inter_bold"
+            android:gravity="center"
+            android:text="JAYESH BAPU"
+            android:textColor="@color/white"
+            android:textSize="32sp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r2"
+        android:layout_width="250sp"
+        android:layout_height="320sp"
+        android:layout_marginLeft="185sp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="50sp"
+            android:src="@drawable/line" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35sp"
+            android:layout_marginTop="70sp"
+            android:text="Joined"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35sp"
+            android:layout_marginTop="95sp"
+            android:text="2018 March ago"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35sp"
+            android:layout_marginTop="130sp"
+            android:text="Pro Member"
+            android:textColor="#A9DCE3"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35sp"
+            android:layout_marginTop="160sp"
+            android:text="Until 1 jan 2024"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35sp"
+            android:layout_marginTop="215sp"
+            android:text="07 Years Subscription"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/r2"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:id="@+id/dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_extra_light"
+            android:gravity="center"
+            android:text="Dark mode"
+            android:textSize="25sp" />
+
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/switchmode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dark"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp" />
+
+        <ImageView
+            android:id="@+id/line1"
+            android:layout_width="350sp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25sp"
+            android:src="@drawable/line2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60sp"
+            android:fontFamily="@font/worksans"
+            android:text="Profession"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="85sp"
+            android:fontFamily="@font/inter_extra_light"
+            android:text="Business Man"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="110sp"
+            android:fontFamily="@font/inter_extra_light"
+            android:text="Contact"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="130sp"
+            android:fontFamily="@font/inter_extra_light"
+            android:text="+91 99985 96394"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="185sp"
+            android:fontFamily="@font/inter_extra_light"
+            android:text="Goto to Male"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="160sp"
+            android:fontFamily="@font/inter_extra_light"
+            android:text="Location"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="215sp"
+            android:fontFamily="@font/inter_extra_light"
+            android:text="E-mail"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="235sp"
+            android:fontFamily="@font/inter_extra_light"
+            android:text="jayeshbapu001@gmail.com"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="350sp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25sp"
+            android:src="@drawable/line2" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="350sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25sp"
+            android:src="@drawable/line2" />
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
